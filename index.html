@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth Tucker - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">KT</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Kenneth Tucker</h1>
+                <p class="hero-subtitle">Software Engineer</p>
+                <p class="hero-description">
+                    I have over ten years of experience in embedded, application, and test roles. I recently completed a second bachelors degree, in computer science, and I'm looking to expand into backend and mobile development next.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://www.linkedin.com/in/kenneth-tucker-25b1b541/" target="_blank" class="btn btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="kenneth_tucker.jpg" alt="Kenneth Tucker" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I excel at creating user-friendly, efficient, and maintainable software for many different industries. My varied career has been motivated by a curiosity about how things work and a desire to improve our lives with technology.
+                    </p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Languages</h4>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>JavaScript</li>
+                                    <li>C++</li>
+                                    <li>Dart</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Technologies</h4>
+                                <ul>
+                                    <li>Google Cloud Platform</li>
+                                    <li>Flask</li>
+                                    <li>Node</li>
+                                    <li>MongoDB</li>
+                                    <li>SQL</li>
+                                    <li>RESTful APIs</li>
+                                    <li>React</li>
+                                    <li>Android</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>More</h4>
+                                <ul>
+                                    <li>Git</li>
+                                    <li>Jenkins (CI/CD)</li>
+                                    <li>VS Code</li>
+                                    <li>Agile/Scrum</li>
+                                    <li>Technical Writing</li>
+                                    <li>Leadership Experience</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project_images/inventory_tracker.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Inventory Tracker</h3>
+                        <p class="project-description">
+                            A REST API and document database for inventory tracking built with Python, Flask, and Google Cloud
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Google Cloud</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ktucker720/cs493_final_project" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project_images/lifters_log.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lifter's Log</h3>
+                        <p class="project-description">
+                            A full stack MERN application for tracking weight lifting exercises
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://bitbucket.org/ktucker720/lifters_log/src/master/" class="project-link"><i class="fab fa-bitbucket"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project_images/bike_kollective.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bike Kollective</h3>
+                        <p class="project-description">
+                            A cross-platform app for bike sharing built with Flutter and Google Cloud. Features include user authentication, bike database management, and map visualization
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">iOS</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Google Cloud</span>
+                            <span class="tech-tag">Document Database</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/anisar17/BikeKollective" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project_images/irestaurant.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">iRestaurant</h3>
+                        <p class="project-description">
+                            A cross-platform app for reviewing restaurants built with Flutter, Google Cloud, and Google Places REST API
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">iOS</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Google Cloud</span>
+                            <span class="tech-tag">Document Database</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ktucker720/cs406_project" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project_images/truffle_hog.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Truffle Hog</h3>
+                        <p class="project-description">
+                            A stock lookup and filter utility implemented using Python and Pandas
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://bitbucket.org/ktucker720/truffle_hog/src/init/" class="project-link"><i class="fab fa-bitbucket"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project_images/exchange.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Exchange</h3>
+                        <p class="project-description">
+                            A C/C++ library for creating dynamic components in embedded software
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Embedded</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://bitbucket.org/beaver-lodge/exchange/src/proto/" class="project-link"><i class="fab fa-bitbucket"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2021-2025 Kenneth Tucker</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
